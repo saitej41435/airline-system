@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: location-services
+
+  datasource:
+    url: jdbc:postgresql://aws-0-ap-southeast-1.pooler.supabase.com:5432/postgres?currentSchema=airline_location_db
+    username: postgres.ijpktkyizynvicrvsnlx
+    password: Superbase@teja1
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+server:
+  port: 5000
+

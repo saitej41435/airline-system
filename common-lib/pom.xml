@@ -17,7 +17,7 @@
     <description>Shared DTO, enums and utilities for airlines microservices</description>
 
     <modules>
-        <module>user-service</module>
+<!--        <module>user-service</module>-->
     </modules>
 
     <dependencies>

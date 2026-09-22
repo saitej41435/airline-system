@@ -17,7 +17,7 @@
     <description>Aggrigator for all business microservices(user, payment, booking...) </description>
 
     <modules>
-        <module>user-service</module>
+        <module>location-service</module>
     </modules>
 
 </project>
