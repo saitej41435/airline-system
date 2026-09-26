@@ -16,10 +16,6 @@
     <name>commonlib</name>
     <description>Shared DTO, enums and utilities for airlines microservices</description>
 
-    <modules>
-<!--        <module>user-service</module>-->
-    </modules>
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
