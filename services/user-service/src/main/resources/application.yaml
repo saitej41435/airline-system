@@ -1,9 +1,9 @@
 spring:
   application:
-    name: location-services
+    name: user-service
 
   datasource:
-    url: jdbc:postgresql://aws-0-ap-southeast-1.pooler.supabase.com:5432/postgres?currentSchema=airline_location_db
+    url: jdbc:postgresql://aws-0-ap-southeast-1.pooler.supabase.com:5432/postgres?currentSchema=airline_users_db
     username: postgres.ijpktkyizynvicrvsnlx
     password: Superbase@teja1
 
@@ -13,5 +13,6 @@ spring:
     show-sql: true
 
 server:
-  port: 5100
+  port: 5101
+
 
